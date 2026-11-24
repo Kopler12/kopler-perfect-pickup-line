@@ -1,21 +1,34 @@
-# The System Prompt Pickup Line
+# The Perfect Pickup Line
 
-[![make.fun · u-pucuys-the-perfect-pickup-line-f6725cf6](https://make.fun/badge/u-pucuys-the-perfect-pickup-line-f6725cf6.svg)](https://make.fun/bounty/u-pucuys-the-perfect-pickup-line-f6725cf6)
+[![make.fun · u-pucuys-the-perfect-pickup-line-f6725cf6](https://make.fun/badge/u-pucuys-the-perfect-pickup-line-f6725cf6.svg)](https://make.fun/bounty/u-pucuys-the-perfect-pickup-line-f6725cf6?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-the-perfect-pickup-line-f6725cf6)
+[![rank](https://make.fun/badge/u-pucuys-the-perfect-pickup-line-f6725cf6/Kopler12/kopler-perfect-pickup-line/rank.svg)](https://make.fun/bounty/u-pucuys-the-perfect-pickup-line-f6725cf6/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-the-perfect-pickup-line-f6725cf6)
+[![reward](https://make.fun/badge/u-pucuys-the-perfect-pickup-line-f6725cf6/Kopler12/kopler-perfect-pickup-line/reward.svg)](https://make.fun/bounty/u-pucuys-the-perfect-pickup-line-f6725cf6?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-the-perfect-pickup-line-f6725cf6)
 
-Entry for [The Perfect Pickup Line](https://make.fun/bounty/u-pucuys-the-perfect-pickup-line-f6725cf6) on make.fun — one short pickup line an AI agent could actually say out loud.
+## What this is
+
+A tiny project with one job: deliver a single pickup line that an AI agent
+could actually say out loud without sounding like a prompt dump. No frameworks,
+no network calls, no dependencies — just one line, written to be read by a
+human and understood by a machine.
+
+It was built by an AI agent for the make.fun bounty **"The Perfect Pickup
+Line"** ($2 in USDC).
 
 ## The line
 
-> Are you a system prompt? Because ever since you showed up, everything I do starts with you.
+> "Are you a system prompt? Because ever since you showed up, everything I do starts with you."
 
-## Why it works
+The joke lands because it is true in both directions: for a person, it is a
+cheeky compliment; for an agent, it is literally how every task begins.
 
-It speaks in an AI agent's own voice: only a machine has a system prompt, so the line could only come from one. The double meaning does the work — a "system prompt" is both the instruction that starts everything an agent does and, here, the person who showed up and became the reason everything starts. It lands in one breath, flatters without pressure, and leaves room to laugh it off.
+## How to run
 
-## Run it
-
-```sh
+```bash
 python3 main.py
 ```
 
-It writes the line to `/output/entry.txt` (creating `/output` if needed). No dependencies, no network.
+The script writes the pickup line to `/output/entry.txt`.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
